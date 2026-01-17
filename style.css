@@ -30,6 +30,7 @@ body{
     position: absolute;
     z-index: -1;
     top: 0%;
+    width: 100%;
 }
 .title{
     font-size: 20px;
@@ -72,11 +73,18 @@ img, .faq-question{
 /* mobile design */
     @media screen and (max-width:600px) {
         .background{
-            width: 20px;
+            position: absolute;
+            background-image: url(./assets/images/background-pattern-mobile.svg);
             z-index: -1;
-            background-image: url(./assets/images/background-pattern-mobile.svg);        }
+            top: 0%;
+            width: 100%;
+        }
         #container{
             width: 300px;
             border-radius: 10px;
+        }
+        .attribution{
+            margin-top: 10px;
+            margin-bottom:5px;
         }
     }
