@@ -72,10 +72,9 @@ img, .faq-question{
 /* mobile design */
     @media screen and (max-width:600px) {
         .background{
-            position: absolute;
+            width: 20px;
             z-index: -1;
-            background-image: url(./assets/images/background-pattern-mobile.svg);
-        }
+            background-image: url(./assets/images/background-pattern-mobile.svg);        }
         #container{
             width: 300px;
             border-radius: 10px;
